@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var powerBICustomVisualsExercise41C75C62D68840208A351935E184BA60: IVisualPlugin;
+export default powerBICustomVisualsExercise41C75C62D68840208A351935E184BA60;

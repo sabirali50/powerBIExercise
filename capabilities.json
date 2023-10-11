@@ -1,0 +1,88 @@
+{
+    "dataRoles": [
+        {
+            "name": "Category",
+            "kind": "GroupingOrMeasure",
+            "displayName": "Letter"
+        },
+        {
+            "name": "Values",
+            "kind": "Measure",
+            "displayName": "Frequency"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "for": {
+                        "in": "Category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "window": {}
+                    }
+                },
+                "values": {
+                    "group": {
+                        "by": "series",
+                        "select": [
+                            {
+                                "for": {
+                                    "in": "Values"
+                                }
+                            }
+                        ],
+                        "dataReductionAlgorithm": {
+                            "top": {}
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "general": {
+            "displayName": "General",
+            "properties": {
+                "formatString": {
+                    "type": {
+                        "text": true
+                    }
+                }
+            }
+        },
+        "dataOrder": {
+            "displayName": "Data Order",
+            "displayNameKey": "Visual_DualKpiProperties",
+            "properties": {
+                "sortOrder": {
+                    "displayName": "Sort Order",
+                    "displayNameKey": "Visual_DualKpiPropertiesaaaa",
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "Alphabetical",
+                                "displayName": "Alphabetical",
+                                "displayNameKey": "Visual_DualKpiPropertieaaas"
+                            },
+                            {
+                                "value": "Frequency Desc",
+                                "displayName": "Frequency Desc",
+                                "displayNameKey": "Visual_DualKpssssiPropertieaaas"
+                            },
+                            {
+                                "value": "Frequency Asc",
+                                "displayName": "Frequency Asc",
+                                "displayNameKey": "Visual_DualKpssssssszxiPropertieaaas"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "supportsHighlight": true,
+    "advancedEditModeSupport": 1,
+    "suppressDefaultTitle": true,
+    "privileges": []
+}

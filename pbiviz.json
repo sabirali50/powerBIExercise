@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "displayName": "Chord Diagramfsfsd Custom Visual",
+        "guid": "powerBICustomVisualsExercise41C75C62D68840208A351935E184BA60",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "sThis is a custom chord diagram visual for Power BI.",
+        "supportUrl": "http://support.example.com",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "sabirali",
+        "email": "sabiraliwadho124@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS":null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}
